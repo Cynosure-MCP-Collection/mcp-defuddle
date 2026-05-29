@@ -1,0 +1,45 @@
+{
+    "name": "@cynosure-mcp/defuddle",
+    "mcpName": "io.github.andreasjhagen/defuddle",
+    "version": "1.0.0",
+    "description": "MCP server that wraps defuddle to extract clean content and metadata from web pages, including YouTube transcripts",
+    "type": "module",
+    "main": "dist/index.js",
+    "bin": {
+        "defuddle-mcp": "dist/index.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "tsx src/index.ts"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.27.1",
+        "defuddle": "^0.18.0",
+        "jsdom": "^26.1.0",
+        "zod": "^3.24.0"
+    },
+    "devDependencies": {
+        "@types/jsdom": "^21.1.7",
+        "@types/node": "^22.0.0",
+        "tsx": "^4.19.0",
+        "typescript": "^5.7.0"
+    },
+    "files": [
+        "dist",
+        "server.json"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "mcp",
+        "model-context-protocol",
+        "defuddle",
+        "web-scraping",
+        "content-extraction",
+        "markdown",
+        "youtube",
+        "ai"
+    ]
+}
