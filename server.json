@@ -3,6 +3,12 @@
     "name": "io.github.andreasjhagen/defuddle",
     "description": "MCP server that wraps defuddle to extract clean content and metadata from web pages, including YouTube transcripts",
     "version": "1.0.0",
+    "icons": [
+        {
+            "src": "https://raw.githubusercontent.com/andreasjhagen/Cynosure-MCPs/main/mcp-defuddle/icon.png",
+            "mimeType": "image/png"
+        }
+    ],
     "packages": [
         {
             "registryType": "npm",
