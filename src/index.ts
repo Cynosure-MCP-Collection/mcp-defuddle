@@ -78,6 +78,7 @@ function formatResult(result: Awaited<ReturnType<typeof Defuddle>>, url: string)
 server.registerTool(
     'fetch_and_parse',
     {
+        annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: true },
         description:
             'Fetch a URL and extract its main content using defuddle. ' +
             'Returns clean text/markdown with metadata (title, author, date, description). ' +
