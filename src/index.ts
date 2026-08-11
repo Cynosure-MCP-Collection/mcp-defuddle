@@ -12,7 +12,7 @@ const server = new McpServer({
     version: '1.0.0',
     title: 'Defuddle Content Extractor',
     description: 'Extracts clean content and metadata from web pages using defuddle. Supports YouTube transcripts, article extraction, and more.',
-    icons: [{ src: 'https://raw.githubusercontent.com/andreasjhagen/Cynosure-MCPs/main/mcp-defuddle/icon.png', mimeType: 'image/png' }],
+    icons: [{ src: 'https://unpkg.com/@cynosure-mcp/defuddle@1.0.1/icon.png', mimeType: 'image/png' }],
 });
 
 // ── Shared options schema ──────────────────────────────────────────────────────

@@ -1,11 +1,11 @@
 {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
     "name": "io.github.andreasjhagen/defuddle",
-    "description": "MCP server that wraps defuddle to extract clean content and metadata from web pages, including YouTube transcripts",
-    "version": "1.0.0",
+    "description": "Extract clean web content, metadata, and YouTube transcripts with Defuddle",
+    "version": "1.0.1",
     "icons": [
         {
-            "src": "https://raw.githubusercontent.com/andreasjhagen/Cynosure-MCPs/main/mcp-defuddle/icon.png",
+            "src": "https://unpkg.com/@cynosure-mcp/defuddle@1.0.1/icon.png",
             "mimeType": "image/png"
         }
     ],
@@ -13,7 +13,7 @@
         {
             "registryType": "npm",
             "identifier": "@cynosure-mcp/defuddle",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "transport": {
                 "type": "stdio"
             },

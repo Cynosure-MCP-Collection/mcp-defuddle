@@ -1,7 +1,7 @@
 {
     "name": "@cynosure-mcp/defuddle",
     "mcpName": "io.github.andreasjhagen/defuddle",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "MCP server that wraps defuddle to extract clean content and metadata from web pages, including YouTube transcripts",
     "type": "module",
     "main": "dist/index.js",
@@ -27,7 +27,8 @@
     },
     "files": [
         "dist",
-        "server.json"
+        "server.json",
+        "icon.png"
     ],
     "publishConfig": {
         "access": "public"
