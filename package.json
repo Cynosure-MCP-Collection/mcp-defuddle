@@ -42,5 +42,13 @@
         "markdown",
         "youtube",
         "ai"
-    ]
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Cynosure-MCP-Collection/mcp-defuddle.git"
+    },
+    "homepage": "https://github.com/Cynosure-MCP-Collection/mcp-defuddle#readme",
+    "bugs": {
+        "url": "https://github.com/Cynosure-MCP-Collection/mcp-defuddle/issues"
+    }
 }
